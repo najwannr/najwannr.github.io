@@ -30,3 +30,74 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+#projects, #certificates {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.project, .certificate {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.project:last-child, .certificate:last-child {
+  border-bottom: none;
+}
+
+.project h3, .certificate h3 {
+  margin: 0;
+}
+
+.project p, .certificate p {
+  margin: 0.5rem 0;
+}
+
+.project a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.certificate img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+}
